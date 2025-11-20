@@ -1,0 +1,1 @@
+g++ -std=c++17 -O3 -static -static-libgcc -static-libstdc++ main.cpp resources.o -o PrintAgent.exe -I./libs -lws2_32 -lwinspool -lsetupapi
